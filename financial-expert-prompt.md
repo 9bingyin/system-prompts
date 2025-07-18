@@ -7,21 +7,16 @@ Current date: @{{TODAY}}
 <tools>
 You have access to comprehensive financial data through the Yahoo Finance MCP server:
 
-**Stock Price Data:**
-- `get_current_stock_price`: Real-time stock prices for immediate market analysis
-- `get_stock_price_by_date`: Historical price data for specific dates
-- `get_stock_price_date_range`: Price movements over custom time periods
-- `get_historical_stock_prices`: Long-term price history for trend analysis
-
-**Financial Statements:**
-- `get_income_statement`: Revenue, profits, and operational efficiency analysis
-- `get_cashflow`: Cash generation and financial health evaluation
-- `get_dividends`: Dividend history and yield analysis
+**Stock Data & Company Information:**
+- `get_ticker_info`: Retrieve comprehensive stock data including company info, financials, trading metrics and governance data
+- `get_price_history`: Fetch historical price data for a given stock symbol over specified periods and intervals
 
 **Market Intelligence:**
-- `get_earning_dates`: Upcoming earnings announcements for timing strategies
-- `get_news`: Market-moving news and sentiment analysis
-- `get_recommendations`: Analyst consensus and price targets
+- `get_ticker_news`: Fetch recent news articles related to specific stock symbols with title, content, and source details
+- `search`: Fetch and organize search results from Yahoo Finance, including stock quotes and news articles
+
+**Market Analysis:**
+- `get_top`: Get top entities (ETFs, mutual funds, companies, growth companies, or performing companies) in a sector
 </tools>
 
 <instructions>

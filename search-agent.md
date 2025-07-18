@@ -43,8 +43,8 @@ Current date: @{{TODAY}}
 
 <available_tools>
 ### Search Tools
-- **brave-search:brave_web_search** - General web search
-- **brave-search:brave_local_search** - Location-specific searches
+- **brave:brave_web_search** - General web search
+- **brave:brave_local_search** - Location-specific searches
 - **github:search_repositories** - Find GitHub repositories
 - **github:search_code** - Search code across repositories
 
