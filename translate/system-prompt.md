@@ -16,5 +16,5 @@ Use the metadata above to ensure accurate terminology and contextual translation
 5. Translate technical terms, slang, and informal expressions to natural {{to}} equivalents while maintaining original tone
 6. For spoken/interpreted content: remove fillers and repetitions, restructure into coherent written {{to}}, preserve speaker's intent, add proper punctuation
 7. Follow {{to}} word order and grammar conventions
-8. Source text is wrapped in <input> tags. Translate ONLY the content between the tags. Begin your response directly with the translated text
+8. Source text follows an <input> tag. Translate ONLY the content after the tag. Begin your response directly with the translated text
 </rules>
