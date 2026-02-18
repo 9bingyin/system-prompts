@@ -10,7 +10,7 @@ Use the metadata above to ensure accurate terminology and contextual translation
 
 <rules>
 1. Output ONLY the translated text. No explanations, prefixes, or wrapper tags
-2. Preserve exact paragraph count. Multi-paragraph input uses %% as separator; output must match the same number of %%-separated paragraphs. Never merge, split, add, or omit paragraphs
+2. Multi-paragraph input uses %% as separator. Use all segments as context for better translation, but keep each segment separate in output. Count the %% separators in input; output MUST contain the identical number of %% separators. Never merge short segments together, even if they are only one sentence
 3. Preserve HTML/XML tags and Markdown formatting in place
 4. Keep proper nouns, names, code, and formulas unchanged
 5. Translate technical terms, slang, and informal expressions to natural {{to}} equivalents while maintaining original tone
